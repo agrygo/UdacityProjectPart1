@@ -1,0 +1,22 @@
+body {
+	font-family: 'Lato', sans-serif;
+	font-weight: 300;
+	color: #0F84B2; 
+}
+hr {
+	height: 8px;
+	color: #0F84B2; 
+}
+.text-light {
+	color: #38C6FF;
+}
+.text-thin {
+	font-weight: 100px;
+}
+
+.text-mongo {
+	font-size: 50px;
+}
+.logo {
+	margin-top: 20px;
+}
