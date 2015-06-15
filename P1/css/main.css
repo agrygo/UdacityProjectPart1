@@ -1,14 +1,14 @@
 body {
 	font-family: 'Lato', sans-serif;
 	font-weight: 300;
-	color: #0F84B2; 
+	color: #0f84b2;
 }
 hr {
 	height: 8px;
-	color: #0F84B2; 
+	color: #0f84b2;
 }
 .text-light {
-	color: #38C6FF;
+	color: #38c6ff;
 }
 .text-thin {
 	font-weight: 100px;
@@ -19,4 +19,9 @@ hr {
 }
 .logo {
 	margin-top: 20px;
+}
+@media screen and (max-width: 376px) {
+  .logo, .banner {
+  	visibility: hidden;
+  }
 }

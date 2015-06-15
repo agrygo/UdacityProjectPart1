@@ -14,50 +14,100 @@
 </head>
 <body>
 	<div class="container">
-		<div class="row" id="header">
-			<div class="col-md-6 logo"id="logo">
-				<img src="http://placehold.it/100x100" alt="placeholder img">
+		<div class="row">
+			<div class="col-md-6 logo">
+				<img src="images/globe.jpg" alt="globe image">
 			</div>
 			<div class="col-md-6 text-right text-uppercase">
 				<h1 class="text-thin text-mongo">Andrea Grygo</h1>
 				<h4 "text-thin">dev in training</h4>
-			</div>	
-		</div> <!--end header-->
-		
+			</div>
+		</div>
+
 		<div class="row">
 			<div class="col-md-12">
 				<hr>
 			</div>
 		</div>
-			
-		<div class="row" id="coverImg">
-			<div class="col-md-12">
-				<img class="img-responsive" src="http://placehold.it/1140x350" alt="placeholder img">
-			</div>
-		</div> <!--end coverImg-->
-			
+
 		<div class="row">
-			<div class="col-md-12" id="feature">
+			<div class="col-md-12">
+				<img class="img-responsive banner" src="images/DT.jpg" alt="Duluth Traverse sample image">
+			</div>
+		</div>
+
+		<div class="row">
+			<div class="col-md-12">
 				<h2 class="text-light">Featured Work</h2>
 			</div>
 		</div>
 
-		<div class="row text-center">	
+		<div class="row text-center">
 			<div class="col-md-4">
-				<img src="http://placehold.it/555x300" alt="placeholder img appify" class="img-responsive">
-				<h3 class="text-uppercase">Appify</h3>
-				<p><a href="http://github.com">Link to project</a></p>	
+				<img src="images/mission.jpg" alt="sample of Mission Creek Trails" class="img-responsive" data-toggle="modal" data-target="#missionModal">
+				<h3 class="text-uppercase">Mission Creek</h3>
+				<p><a href="https://www.dropbox.com/s/mfq3lneiredm85e/Mission-Main.pdf?dl=0" target="_blank">View map</a></p>
 			</div>
 			<div class="col-md-4">
-				<img src="http://placehold.it/555x300" alt="placeholder img sunflower" class="img-responsive">
-				<h3 class="text-uppercase">Sunflower</h3>
-				<p><a href="http://github.com">Link to project</a></p>	
+				<img src="images/redmtn.jpg" alt="sample of Red Mtn trails map" class="img-responsive" data-toggle="modal" data-target="#redMtnModal">
+				<h3 class="text-uppercase">Red Mountain</h3>
+				<p><a href="https://drive.google.com/file/d/0Bx5_ibIYb6JYbjg4MHJMay1jeVE/view?usp=sharing" target="_blank">View map</a></p>
 			</div>
 			<div class="col-md-4">
-				<img src="http://placehold.it/555x300" alt="placeholder img bokeh" class="img-responsive">
-				<h3 class="text-uppercase">Bokeh</h3>
-				<p><a href="http://github.com">Link to project</a></p>	
-			</div>	
-		</div>	
+				<img src="images/Lester.jpg" alt="sample of Lester trails map" class="img-responsive" data-toggle="modal" data-target="#lesterModal">
+				<h3 class="text-uppercase">Lester Park</h3>
+				<p><a href="https://drive.google.com/file/d/0Bx5_ibIYb6JYWnl4bnk5SDd2NUk/view?usp=sharing" target="_blank">View map</a></p>
+			</div>
+		</div>
+
+<!-- Mission Modal -->
+<div class="modal fade" id="missionModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h4 class="modal-title">Mission Creek Trails</h4>
+      </div>
+      <div class="modal-body">
+        Mission Creek trail system
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Red Mtn Modal -->
+<div class="modal fade" id="redMtnModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h4 class="modal-title">Red Mountain Trail Project</h4>
+      </div>
+      <div class="modal-body">
+      	Proposed 2015 reroutes on Red Mountain to promote sustainable trail design.
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Lester Modal -->
+<div class="modal fade" id="lesterModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h4 class="modal-title">Lester Park Trails</h4>
+      </div>
+      <div class="modal-body">
+        Lester Park Trails
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
 </body>
-</html>	
+</html>
